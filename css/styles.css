@@ -117,6 +117,43 @@ body {
 
 #features {
 	background-color: #000;
+	background-image: url('../assets/lux-interaction-xL3xDwWx7_s-unsplash.jpeg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-shadow:
+		inset 0px -100px 80px 0px rgba(0,0,0,0.9),
+		inset 0px -30px 60px 0px rgba(0,0,0,0.9),
+		inset 0px -100px 80px 0px rgba(0,0,0,0.9),
+		inset 0px -30px 60px 0px rgba(0,0,0,0.9),
+		inset 0px -5px 5px 0px rgba(0,0,0,0.9);
+}
+
+.features_img-one {
+	background-image: url('../assets/jesper-aggergaard-38Hg7GMTogo-unsplash.jpeg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	height: 220px;
+}
+
+.features_img-two {
+	background-image: url('../assets/VrCR8DUtagHFmhg6vtRq4R-1200-80.jpeg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	height: 220px;
+}
+
+.features_img-three {
+	background-image: url('../assets/Vesaro-I-Modular-virtual-reality-simulator.jpeg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	height: 220px;
 }
 
 /*===========
@@ -153,6 +190,10 @@ body {
 
 #contact {
 	background-color: #000;
+}
+
+.contact_img {
+	border-radius: 20px;
 }
 
 /*===========
