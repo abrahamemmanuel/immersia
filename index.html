@@ -55,7 +55,7 @@
     </div>
   </nav>
 
-  <header>
+  <header class="d-none d-sm-none d-md-block">
     <div class="fullscreen-video-wrap">
       <video src="assets/header-bg.mp4" autoplay loop playsinline muted></video>
     </div>
@@ -75,11 +75,24 @@
 
   </header>
 
+  <div id="homepage_mobile" class="d-block d-sm-block d-md-none">
+    <div class="container">
+      <div class="row">
+        <div class="homepage_mobile-text col-12 text-white">
+          <h1 class="homepage_mobile-title">Don't Play The Game... Be The Game.</h1>
+          <p class="lead">Experience first person reality.</p>
+          <button type="button" class="btn btn-outline-primary my-auto">Virtual Valentine <i class="fa fa-trophy"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 text-white my-5">
           <h2>About Us</h2>
+          <div class="line my-3"></div>
           <p class="lead">Experience cutting edge virtual reality with technologically advanced peripherals.</p>
         </div>
         <div class="col-lg-8">
@@ -139,19 +152,19 @@
         <div class="col-lg-4">
           <div class="features_img-one my-5"></div>
           <h4>VR Headgears</h4>
-          <div class="line"></div>
+          <div class="line my-3"></div>
           <p>See and hear everything in this virtual world with our world class virtual reality headgears.</p>
         </div>
         <div class="col-lg-4">
           <div class="features_img-two my-5"></div>
-          <h4>Haptic Bodsuits</h4>
-          <div class="line"></div>
+          <h4>Haptic Bodysuits</h4>
+          <div class="line my-3"></div>
           <p>Feel every punch, every hit, every push and pull with the latest and best haptic feedback suit available in the industry.</p>
         </div>
         <div class="col-lg-4">
           <div class="features_img-three my-5"></div>
           <h4>VR Racing Simulator</h4>
-          <div class="line"></div>
+          <div class="line my-3"></div>
           <p>With our 3-dof racing simulator, realise the feel of driving an AMG GTS, Lamborghini or Ferrari and more, feel every bump on the road, every sensation of driving on track or grass, every rumble on the steering of a powerful supercar and experience total freedom on our world class racing simulator.</p>
         </div>
       </div>
@@ -184,8 +197,9 @@
             </a>
           </div>
         </div>
-        <div class="col-lg-6 text-white">
+        <div class="col-lg-6 text-white px-4 py-4">
           <h2>VR for Education</h2>
+          <div class="line my-3"></div>
           <p class="lead">Introducing a whole new concept in educational technology. Ensuring you are engaged, motivated and challenged throughout your quest for knowledge is a key priority to learning. See how virtual reality can unlock potentials, giving new ways to experience, learn and even create your own story.</p>
         </div>
       </div>

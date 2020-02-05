@@ -31,6 +31,10 @@ body {
 	background-color: #000;
 }
 
+.blue_shadow {
+	box-shadow: 0 2px 8px 10px rgba(25,116,210, 0.2), 0 2px 20px 0 rgba(25,116,210, 0.19);
+}
+
 /*===========
 1. < Home >
 ===========*/
@@ -84,11 +88,15 @@ body {
 }
 
 .homepage_text .btn-default {
-	background-color: #fc2847;
+	background-color: #1974d2;
 	color: #fff;
 	border-radius: 10px;
 	padding: 15px;
 	font-size: 15px;
+}
+
+.btn-default i {
+	margin-left: 10px;
 }
 
 
@@ -102,6 +110,31 @@ body {
 </ Home >
 ===========*/
 
+#homepage_mobile {
+	height: 100vh;
+	background-image: url('../assets/bg-homepage-mobile.jpg');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+#homepage_mobile .homepage_mobile-title {
+	margin-top: 25vh;
+}
+
+#homepage_mobile .btn-default {
+	background-color: #1974d2;
+	color: #fff;
+	border-radius: 10px;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.btn-default i {
+	margin-left: 10px;
+}
+
 /*===========
 1. < about >
 ===========*/
@@ -109,6 +142,20 @@ body {
 #about {
 	background-color: #000;
 	margin-top: 30vh;
+}
+
+@media only screen and (max-width: 992px) {
+	#about {
+		background-color: #000;
+		margin-top: 10vh;
+	}
+}
+
+#about .line {
+	width: 100px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: #1974d2;
 }
 
 /*===========
@@ -136,6 +183,11 @@ body {
 	background-repeat: no-repeat;
 	border-radius: 20px;
 	height: 220px;
+	transition: all 1s;
+}
+
+.features_img-one:hover {
+	background-size: 120%;
 }
 
 .features_img-two {
@@ -145,7 +197,13 @@ body {
 	background-repeat: no-repeat;
 	border-radius: 20px;
 	height: 220px;
+	transition: all 1s;
 }
+
+.features_img-two:hover {
+	background-size: 120%;
+}
+
 
 .features_img-three {
 	background-image: url('../assets/Vesaro-I-Modular-virtual-reality-simulator.jpeg');
@@ -154,6 +212,19 @@ body {
 	background-repeat: no-repeat;
 	border-radius: 20px;
 	height: 220px;
+	transition: all 1s;
+}
+
+.features_img-three:hover {
+	background-size: 120%;
+}
+
+
+#features .line {
+	width: 200px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: #1974d2;
 }
 
 /*===========
@@ -170,6 +241,13 @@ body {
 
 .edu_img-one, .edu_img-two, .edu_img-three {
 	border-radius: 20px;
+}
+
+#education .line {
+	width: 200px;
+	height: 5px;
+	border-radius: 2px;
+	background-color: #1974d2;
 }
 
 /*===========
