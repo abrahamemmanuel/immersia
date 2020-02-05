@@ -139,7 +139,7 @@ body {
 }
 
 .features_img-two {
-	background-image: url('../assets/VrCR8DUtagHFmhg6vtRq4R-1200-80.jpeg');
+	background-image: url('../assets/Teslasuit-2-768x666.jpg');
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -166,6 +166,10 @@ body {
 
 #education {
 	background-color: #000;
+}
+
+.edu_img-one, .edu_img-two, .edu_img-three {
+	border-radius: 20px;
 }
 
 /*===========
